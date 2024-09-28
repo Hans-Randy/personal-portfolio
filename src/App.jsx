@@ -1,41 +1,23 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import HomePage from './Pages/Home';
-import RootLayout from './components/RootLayout/Root';
-import AboutPage from './Pages/About';
-import ContactPage from './Pages/Contact';
-import ServicesPage from './Pages/Services';
-import ProjectsPage from './Pages/Projects';
-import "./App.css";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+import Services from "./components/Services";
+import Skills from "./components/Skills";
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <RootLayout />,
-    children: [
-      {
-        index: true,
-        element: <HomePage />
-      },
-      {
-        path: 'about',
-        element: <AboutPage />
-      },
-      {
-        path: 'projects',
-        element: <ProjectsPage />
-      },
-      {
-        path: 'services',
-        element: <ServicesPage />
-      },
-      {
-        path: 'contact-me',
-        element: <ContactPage />
-      },
-    ],
-  },
-]);
+import React from "react";
 
 export default function App() {
-  return <RouterProvider router={router} />;
+  return (
+    <main className="text-gray-400 bg-gray-900 body-font">
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Services />
+      <Skills />
+      <Contact />
+    </main>
+  );
 }
