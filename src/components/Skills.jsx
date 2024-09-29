@@ -1,3 +1,8 @@
+/* Skills.jsx
+Hans-Randy Masamba
+301378248
+2024-09-28 */
+
 import { CheckBadgeIcon, CpuChipIcon } from "@heroicons/react/24/solid";
 import { skills } from "../data/data";
 
@@ -11,7 +16,10 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            I’ve utilized a wide range of technologies and tools, including .NET, React, Node.js, MongoDB, Express, and Tailwind CSS. Each project demonstrates my ability to adapt and work with different frameworks, ensuring optimal performance and user satisfaction.
+            I’ve utilized a wide range of technologies and tools, including
+            .NET, React, Node.js, MongoDB, Express, and Tailwind CSS. Each
+            project demonstrates my ability to adapt and work with different
+            frameworks, ensuring optimal performance and user satisfaction.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">

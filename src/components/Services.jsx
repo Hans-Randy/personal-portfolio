@@ -1,3 +1,8 @@
+/* Services.jsx
+Hans-Randy Masamba
+301378248
+2024-09-28 */
+
 import { ComputerDesktopIcon, CloudIcon } from "@heroicons/react/24/solid";
 import { services } from "../data/data";
 

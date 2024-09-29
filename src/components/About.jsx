@@ -1,3 +1,8 @@
+/* About.jsx
+Hans-Randy Masamba
+301378248
+2024-09-28 */
+
 export default function About() {
   return (
     <section id="about">
@@ -9,19 +14,24 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            Over the years, I’ve had the opportunity to work with clients from various industries, gaining valuable insights and honing my skills. With proficiency in .NET, React, abd Node, I’m confident in delivering the best results for any project.
+            Over the years, I’ve had the opportunity to work with clients from
+            various industries, gaining valuable insights and honing my skills.
+            With proficiency in .NET, React, abd Node, I’m confident in
+            delivering the best results for any project.
           </p>
           <div className="flex justify-center">
-              <a
-                  href="src/assets/Hans-Randy_Masamba_Modified_CV.pdf"
-                  className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-                  Download My Resume
-              </a>
-              <a
-                  href="https://github.com/Hans-Randy"
-                  className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-                  Github Repository
-              </a>
+            <a
+              href="src/assets/Hans-Randy_Masamba_Modified_CV.pdf"
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              Download My Resume
+            </a>
+            <a
+              href="https://github.com/Hans-Randy"
+              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              Github Repository
+            </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
